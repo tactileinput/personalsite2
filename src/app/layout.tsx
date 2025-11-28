@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Site",
-  description: "Personal website with centered artwork",
+  title: "Tactile Input",
+  description: "Seek ye first the kingdom of God.",
 };
 
 export default function RootLayout({
