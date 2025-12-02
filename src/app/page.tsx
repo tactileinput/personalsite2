@@ -11,7 +11,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center gap-4">
           <p className="text-black text-center">
-            <a href="https://www.ninaprotocol.com/profiles/tactileinput" className="underline">Nina Protocol</a>
+            <a href="https://www.ninaprotocol.com/releases/gabriel-hollis---genesis" className="underline">Nina Protocol</a>
             {" | "}
             <a href="https://tactileinput.bandcamp.com/track/genesis" className="underline">Bandcamp</a>
             {" | "}
