@@ -16,6 +16,10 @@ export default function Home() {
             <a href="https://tactileinput.bandcamp.com/track/genesis" className="underline">Bandcamp</a>
             {" | "}
             <a href="https://soundcloud.com/tactileinput/genesis" className="underline">SoundCloud</a>
+            {" | "}
+            <a href="https://open.spotify.com/album/4YBRFSDaBBTR1n33t1OzGG?si=mYquBPq5SxyoOM9nSSOFOg" className="underline">Spotify</a>
+            {" | "}
+            <a href="https://music.apple.com/us/album/genesis-single/1858127996" className="underline">Apple Music</a>
           </p>
           <a href="mailto:gabriel@tactileinput.net" className="text-xs text-black">gabriel@tactileinput.net</a>
         </div>
