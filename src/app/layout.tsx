@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tactile Input",
-  description: "Seek ye first the kingdom of God.",
+  description: "There is Nothing.",
 };
 
 export default function RootLayout({
