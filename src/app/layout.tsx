@@ -13,14 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tactile Input",
-  description: "There is Nothing.",
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-    userScalable: true,
-  },
+  title: "Personal Site",
+  description: "Personal website with centered artwork",
 };
 
 export default function RootLayout({
