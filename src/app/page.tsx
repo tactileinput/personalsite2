@@ -1,15 +1,17 @@
 export default function Home() {
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className="w-screen h-screen overflow-hidden bg-white">
       <object
-        data="/classicthesis-article.pdf#toolbar=0&navpanes=0&scrollbar=0"
+        data="/classicthesis-article.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
         type="application/pdf"
-        className="w-full h-screen"
+        className="w-full h-full"
+        style={{ display: 'block' }}
       >
         <embed
-          src="/classicthesis-article.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          src="/classicthesis-article.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
           type="application/pdf"
-          className="w-full h-screen"
+          className="w-full h-full"
+          style={{ display: 'block' }}
         />
       </object>
     </div>
