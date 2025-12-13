@@ -10,7 +10,7 @@ export default function Home() {
         
         {/* Growing In Between - Left on desktop, Top on mobile */}
         <div className="flex flex-col items-center gap-6">
-          <div className="w-96 h-96 overflow-hidden shadow-2xl">
+          <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
             <img
               src="/growing/growing_in_between.jpg"
               alt="Growing In Between"
@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* Genesis - Right on desktop, Bottom on mobile */}
         <div className="flex flex-col items-center gap-6">
-          <div className="w-96 h-96 overflow-hidden shadow-2xl">
+          <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
             <img
               src="/genesis/artwork_atonal.u.png"
               alt="Genesis artwork"
