@@ -51,12 +51,12 @@ export default function Home() {
         <div className="flex flex-col items-center gap-6">
           <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
             <img
-              src="/growing/growing_in_between.jpg"
+              src="/growing/growing-in-between.jpg"
               alt="Growing In Between"
               className="w-full h-full object-cover"
             />
           </div>
-          <a href="/growing/growing-in-between.png" target="_blank" rel="noopener noreferrer" className="text-black text-center underline">
+          <a href="/growing/growing-in-between.pdf" target="_blank" rel="noopener noreferrer" className="text-black text-center underline">
             Growing In Between
           </a>
         </div>
