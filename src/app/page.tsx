@@ -33,7 +33,21 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-12 sm:gap-16">
         
-        {/* Growing In Between - Left on desktop, Top on mobile */}
+        {/* Margin for Thought - Top on mobile, Left on desktop */}
+        <div className="flex flex-col items-center gap-6 order-first sm:order-none">
+          <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
+            <img
+              src="/marginforthought.jpg"
+              alt="Margin for Thought"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <a href="https://linktr.ee/marginforthought" target="_blank" rel="noopener noreferrer" className="text-black text-center underline">
+            Margin for Thought
+          </a>
+        </div>
+        
+        {/* Growing In Between - Middle on desktop, Second on mobile */}
         <div className="flex flex-col items-center gap-6">
           <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
             <img
@@ -47,7 +61,7 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Genesis - Right on desktop, Bottom on mobile */}
+        {/* Genesis - Right on desktop, Third on mobile */}
         <div className="flex flex-col items-center gap-6">
           <div className="w-full max-w-96 aspect-square overflow-hidden shadow-2xl">
             <img
